@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "./HTML/DishDive.html",
+        "src": "./DishDive.html",
         "use": "@vercel/static-build",
         "config": {}
       }
