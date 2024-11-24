@@ -1,60 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>DishDive</title>
-        <link rel="stylesheet" href="../CSS/style.css">
-        <title>DishDive</title>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap" rel="stylesheet">
-    </head>
-    <body>
-        <header>
-            <h2>DishDive</h2>
-            <img src="../Images/logo.png" alt="">
-        </header>
-        <h2 class="quote">The Culinary Destination</h2>
-        <div id="searchContainer">
-            <input type="text" id="searchInput" placeholder="Search for a meal...">
-            <button onclick="searchMeal()">Search</button>
-            <h2 id="searchResultsHeader">Search results:    </h2>
-            <div id="placeholderContent">
-
-                <!-- Placeholder card 1 -->
-                <div class="meal">
-                    <img src="../Images/background.jpg" alt="Placeholder Image">
-                    <h3>Meal Name 1</h3>
-                    <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
-                    <button onclick="showRecipe()">View Recipe</button>
-                </div>
-                <!-- Placeholder card 2 -->
-                <div class="meal">
-                    <img src="../Images/image2.jfif" alt="Placeholder Image">
-                    <h3>Meal Name 2</h3>
-                    <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
-                    <button onclick="showRecipe()">View Recipe</button>
-                </div>
-                <!-- Placeholder card 3 -->
-                <div class="meal">
-                    <img src="../Images/image3.jfif" alt="Placeholder Image">
-                    <h3>Meal Name 3</h3>
-                    <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
-                    <button onclick="showRecipe()">View Recipe</button>
-                </div>
-                <!-- Placeholder card 4 -->
-                <div class="meal">
-                    <img src="../Images/image4.jfif" alt="Placeholder Image">
-                    <h3>Meal Name 4</h3>
-                    <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
-                    <button onclick="showRecipe()">View Recipes</button>
-                </div>
-            </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DishDive</title>
+    <link rel="stylesheet" href="../CSS/style.css" />
+    <title>DishDive</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Madimi+One&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <h2>DishDive</h2>
+      <img src="../Images/logo.png" alt="" />
+    </header>
+    <h2 class="quote">The Culinary Destination</h2>
+    <div id="searchContainer">
+      <input type="text" id="searchInput" placeholder="Search for a meal..." />
+      <button onclick="searchMeal()">Search</button>
+      <h2 id="searchResultsHeader">Search results:</h2>
+      <div id="placeholderContent">
+        <!-- Placeholder card 1 -->
+        <div class="meal">
+          <img src="../Images/background.jpg" alt="Placeholder Image" />
+          <h3>Meal Name 1</h3>
+          <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+          <button onclick="showRecipe()">View Recipe</button>
         </div>
-        <div id="mealContainer"></div>
-        <div id="recipeContainer" class="recipe"></div>
+        <!-- Placeholder card 2 -->
+        <div class="meal">
+          <img src="../Images/image2.jfif" alt="Placeholder Image" />
+          <h3>Meal Name 2</h3>
+          <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+          <button onclick="showRecipe()">View Recipe</button>
+        </div>
+        <!-- Placeholder card 3 -->
+        <div class="meal">
+          <img src="../Images/image3.jfif" alt="Placeholder Image" />
+          <h3>Meal Name 3</h3>
+          <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+          <button onclick="showRecipe()">View Recipe</button>
+        </div>
+        <!-- Placeholder card 4 -->
+        <div class="meal">
+          <img src="../Images/image4.jfif" alt="Placeholder Image" />
+          <h3>Meal Name 4</h3>
+          <p>Ingredient 1, Ingredient 2, Ingredient 3</p>
+          <button onclick="showRecipe()">View Recipes</button>
+        </div>
+      </div>
+    </div>
+    <div id="mealContainer"></div>
+    <div id="recipeContainer" class="recipe"></div>
 
-        <script src="../JavaScript/main.js"></script>
-    </body>
+    <script src="../JavaScript/main.js"></script>
+  </body>
 </html>
